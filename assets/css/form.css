@@ -1,0 +1,15 @@
+.initmax-free:before {
+    content: '';
+
+    background: url('../img/initmax-free.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+
+    display: flex;
+    
+    height: 4rem;
+
+    margin: 2rem 0;
+}

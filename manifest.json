@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2.0,
+    "id": "chatgpt",
+    "type": "widget",
+    "name": "ChatGPT widget",
+    "namespace": "OpenAI",
+    "version": "2.0",
+    "author": "initMAX s.r.o.",
+    "url": "https://www.initmax.com",
+    "description": "Chatting widget which using OpenAI or custom provider LLM",
+    "actions": {
+        "widget.openai.view": {
+            "class": "WidgetView"
+        }
+    },
+    "widget": {
+        "name": "ChatGPT",
+        "size": {
+            "width": 4,
+            "height": 4
+        },
+        "refresh_rate": 0,
+        "js_class": "CWidgetOpenAI"
+    },
+    "assets": {
+        "css": [
+            "widget.css",
+            "form.css"
+        ],
+        "js": [
+            "marked.min.js",
+            "class.widget.js"
+        ]
+    }
+}
